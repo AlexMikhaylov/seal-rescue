@@ -1,1 +1,1 @@
-# Seal Rescue Project Backend
+# Seal Rescue Backend Project
