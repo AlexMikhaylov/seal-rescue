@@ -1,0 +1,197 @@
+country_id;country_name;country_code;fk_region_id
+1;Afghanistan;AF;5
+2;Albania;AL;5
+3;Algeria;DZ;1
+4;Andorra;AD;5
+5;Angola;AO;1
+6;Antigua and Barbuda;AG;2
+7;Argentina;AR;3
+8;Armenia;AM;5
+9;Australia;AU;6
+10;Austria;AT;5
+11;Azerbaijan;AZ;5
+12;The Bahamas;BS;2
+13;Bahrain;BH;5
+14;Bangladesh;BD;5
+15;Barbados;BB;2
+16;Belarus;BY;5
+17;Belgium;BE;5
+18;Belize;BZ;2
+19;Benin;BJ;1
+20;Bhutan;BT;5
+21;Bolivia;BO;3
+22;Bosnia and Herzegovina;BA;5
+23;Botswana;BW;1
+24;Brazil;BR;3
+25;Brunei;BN;5
+26;Bulgaria;BG;5
+27;Burkina Faso;BF;1
+28;Burundi;BI;1
+29;Cabo Verde;CV;1
+30;Cambodia;KH;5
+31;Cameroon;CM;1
+32;Canada;CA;2
+33;Central African Republic;CF;1
+34;Chad;TD;1
+35;Chile;CL;3
+36;China;CN;5
+37;Colombia;CO;3
+38;Comoros;KM;1
+39;Congo, Democratic Republic of the;CD;1
+40;Congo, Republic of the;CG;1
+41;Costa Rica;CR;2
+42;Côte d’Ivoire;CI;1
+43;Croatia;HR;5
+44;Cuba;CU;2
+45;Cyprus;CY;5
+46;Czech Republic;CZ;5
+47;Denmark;DK;5
+48;Djibouti;DJ;1
+49;Dominica;DM;2
+50;Dominican Republic;DO;2
+51;East Timor (Timor-Leste);TL;5
+52;Ecuador;EC;3
+53;Egypt;EG;1
+54;El Salvador;SV;2
+55;Equatorial Guinea;GQ;1
+56;Eritrea;ER;1
+57;Estonia;EE;5
+58;Eswatini;SZ;1
+59;Ethiopia;ET;1
+60;Fiji;FJ;6
+61;Finland;FI;5
+62;France;FR;5
+63;Gabon;GA;1
+64;The Gambia;GM;1
+65;Georgia;GE;5
+66;Germany;DE;5
+67;Ghana;GH;1
+68;Greece;GR;5
+69;Grenada;GD;2
+70;Guatemala;GT;2
+71;Guinea;GN;1
+72;Guinea-Bissau;GW;1
+73;Guyana;GY;3
+74;Haiti;HT;2
+75;Honduras;HN;2
+76;Hungary;HU;5
+77;Iceland;IS;5
+78;India;IN;5
+79;Indonesia;ID;5
+80;Iran;IR;5
+81;Iraq;IQ;5
+82;Ireland;IE;5
+83;Israel;IL;5
+84;Italy;IT;5
+85;Jamaica;JM;2
+86;Japan;JP;5
+87;Jordan;JO;5
+88;Kazakhstan;KZ;5
+89;Kenya;KE;1
+90;Kiribati;KI;6
+91;Korea, North;KP;5
+92;Korea, South;KR;5
+93;Kosovo;XK;5
+94;Kuwait;KW;5
+95;Kyrgyzstan;KG;5
+96;Laos;LA;5
+97;Latvia;LV;5
+98;Lebanon;LB;5
+99;Lesotho;LS;1
+100;Liberia;LR;1
+101;Libya;LY;1
+102;Liechtenstein;LI;5
+103;Lithuania;LT;5
+104;Luxembourg;LU;5
+105;Madagascar;MG;1
+106;Malawi;MW;1
+107;Malaysia;MY;5
+108;Maldives;MV;5
+109;Mali;ML;1
+110;Malta;MT;5
+111;Marshall Islands;MH;6
+112;Mauritania;MR;1
+113;Mauritius;MU;1
+114;Mexico;MX;2
+115;Micronesia, Federated States of;FM;6
+116;Moldova;MD;5
+117;Monaco;MC;5
+118;Mongolia;MN;5
+119;Montenegro;ME;5
+120;Morocco;MA;1
+121;Mozambique;MZ;1
+122;Myanmar (Burma);MM;5
+123;Namibia;NA;1
+124;Nauru;NR;6
+125;Nepal;NP;5
+126;Netherlands;NL;5
+127;New Zealand;NZ;6
+128;Nicaragua;NI;2
+129;Niger;NE;1
+130;Nigeria;NG;1
+131;North Macedonia;MK;5
+132;Norway;NO;5
+133;Oman;OM;5
+134;Pakistan;PK;5
+135;Palau;PW;6
+136;Panama;PA;2
+137;Papua New Guinea;PG;6
+138;Paraguay;PY;3
+139;Peru;PE;3
+140;Philippines;PH;5
+141;Poland;PL;5
+142;Portugal;PT;5
+143;Qatar;QA;5
+144;Romania;RO;5
+145;Russia;RU;5
+146;Rwanda;RW;1
+147;Saint Kitts and Nevis;KN;2
+148;Saint Lucia;LC;2
+149;Saint Vincent and the Grenadines;VC;2
+150;Samoa;WS;6
+151;San Marino;SM;5
+152;Sao Tome and Principe;ST;1
+153;Saudi Arabia;SA;5
+154;Senegal;SN;1
+155;Serbia;RS;5
+156;Seychelles;SC;1
+157;Sierra Leone;SL;1
+158;Singapore;SG;5
+159;Slovakia;SK;5
+160;Slovenia;SI;5
+161;Solomon Islands;SB;6
+162;Somalia;SO;1
+163;South Africa;ZA;1
+164;Spain;ES;5
+165;Sri Lanka;LK;5
+166;Sudan;SD;1
+167;Sudan, South;SS;1
+168;Suriname;SR;3
+169;Sweden;SE;5
+170;Switzerland;CH;5
+171;Syria;SY;5
+172;Taiwan;TW;5
+173;Tajikistan;TJ;5
+174;Tanzania;TZ;1
+175;Thailand;TH;5
+176;Togo;TG;1
+177;Tonga;TO;6
+178;Trinidad and Tobago;TT;2
+179;Tunisia;TN;1
+180;Turkey;TR;5
+181;Turkmenistan;TM;5
+182;Tuvalu;TV;6
+183;Uganda;UG;1
+184;Ukraine;UA;5
+185;United Arab Emirates;AE;5
+186;United Kingdom;GB;5
+187;United States;US;2
+188;Uruguay;UY;3
+189;Uzbekistan;UZ;5
+190;Vanuatu;VU;6
+191;Vatican City;VA;5
+192;Venezuela;VE;3
+193;Vietnam;VN;5
+194;Yemen;YE;5
+195;Zambia;ZM;1
+196;Zimbabwe;ZW;1
