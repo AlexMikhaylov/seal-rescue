@@ -7,6 +7,7 @@
 - Design an ER diagram
 - Implement Hibernate
     - [Flyway Database Migrations](https://www.baeldung.com/database-migrations-with-flyway) (?)
+    - Liquibase Database Migrations
 
 ## Search and Filter Functionality:
 - Search by region, name, or seals.
@@ -62,7 +63,11 @@
 ## Next Steps:
 1. Create GitHub repository and directories ✅
     - [GitHub Repository: seal-rescue](https://github.com/AlexMikhaylov/seal-rescue)
-2. Check the ideas provided above.
-3. Design the ER diagram for the database.
-4. Discuss the ER diagram.
-5. Create a CSV file for the database after it’s finished.
+2. Check the ideas provided above ✅
+3. Design the first ER diagram draft ✅
+4. Update the ER diagram & check the scalability ✅
+5. Create a CSV file for the database from the Excel table
+6. Create a seeding script in the backend project (from csv): seal, station, countries, roles etc tables (for all tables without users and subscriptions)
+7. Implement two controllers for the user registration and user login endpoints
+8. Initialize a setup of Angular https://angular.dev/installation/ in the frontend directory
+
