@@ -40,7 +40,7 @@ dependencies {
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-	implementation("org.liquibase:liquibase-core")
+	implementation("org.flywaydb:flyway-core")
 	implementation("org.springframework.ai:spring-ai-openai-spring-boot-starter")
 	implementation("org.springframework.ai:spring-ai-postgresml-spring-boot-starter")
 	compileOnly("org.projectlombok:lombok")
