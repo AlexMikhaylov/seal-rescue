@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=sealrescue'
+      - 'POSTGRES_PASSWORD=rescue'
+      - 'POSTGRES_USER=seal'
+    ports:
+      - '5432'

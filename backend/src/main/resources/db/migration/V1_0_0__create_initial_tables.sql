@@ -12,6 +12,13 @@ CREATE TABLE IF NOT EXISTS countries (
     fk_region_id INTEGER REFERENCES regions(region_id)
 );
 
+-- Create enum type for station_status
+DO $$ BEGIN
+    CREATE TYPE station_status_enum AS ENUM ('active', 'limited', 'closed');
+EXCEPTION
+    WHEN duplicate_object THEN null;
+END $$;
+
 -- create table if not exists stations: station_id, station original name_ varchar256, station longitude float, station_latitude float, station_address varchar256, fk_country_id integer, station_status enum(active, limited, closed)
 CREATE TABLE IF NOT EXISTS stations (
     station_id SERIAL PRIMARY KEY,
@@ -22,12 +29,7 @@ CREATE TABLE IF NOT EXISTS stations (
     fk_country_id INTEGER REFERENCES countries(country_id),
     station_status station_status_enum NOT NULL
 );
--- Create enum type for station_status
-DO $$ BEGIN
-    CREATE TYPE station_status_enum AS ENUM ('active', 'limited', 'closed');
-EXCEPTION
-    WHEN duplicate_object THEN null;
-END $$;
+
 
 -- create table if not exists external_media_links: id integer, link(256), media links type varchar(128), fk_station_id integer
 CREATE TABLE IF NOT EXISTS external_media_links (
@@ -45,17 +47,19 @@ CREATE TABLE IF NOT EXISTS external_resources (
     fk_station_id INTEGER REFERENCES stations(station_id)
 );
 
--- create table if not exists seals: seal_id, seal_type enum(eared, earless)
-CREATE TABLE IF NOT EXISTS seals (
-    seal_id SERIAL PRIMARY KEY,
-    seal_type seal_type_enum NOT NULL
-);
 -- Create enum type for seal_type
 DO $$ BEGIN
     CREATE TYPE seal_type_enum AS ENUM ('eared', 'earless');
 EXCEPTION
     WHEN duplicate_object THEN null;
 END $$;
+
+-- create table if not exists seals: seal_id, seal_type enum(eared, earless)
+CREATE TABLE IF NOT EXISTS seals (
+    seal_id SERIAL PRIMARY KEY,
+    seal_type seal_type_enum NOT NULL
+);
+
 
 -- create table if not exists seals_stations: seals_stations_id integer, fk_seal_id int, fk_station_id integer
 CREATE TABLE IF NOT EXISTS seals_stations (
