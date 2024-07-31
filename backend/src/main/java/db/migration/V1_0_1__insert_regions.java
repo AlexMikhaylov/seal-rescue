@@ -7,7 +7,7 @@ import org.flywaydb.core.api.migration.Context;
 import java.io.InputStreamReader;
 import java.sql.PreparedStatement;
 
-public class V1_0_1__seed_data extends BaseJavaMigration {
+public class V1_0_1__insert_regions extends BaseJavaMigration {
     @Override
     public void migrate(Context context) throws Exception {
         try (CSVReader csvReader = new CSVReader(new InputStreamReader(
