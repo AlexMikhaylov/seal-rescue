@@ -1,0 +1,27 @@
+station_id;station_original_name;station_longitude;station_latitude;station_address;fk_country_id;station_status
+1;Sea World Marine Animal Rescue;153.425210;-27.943950;Sea World Drive, Main Beach, QLD 4217, Australia;9;active
+2;Centre de sauvetage des phoques Sea Life Blankenberge;3.145040;51.317760;Koning Albert I-laan 116, 8370 Blankenberge, Belgium;17;active
+3;The Vancouver Aquarium Marine Mammal Rescue Society (VAMMR);-123.130836;49.300549;845 Avison Way, Vancouver, BC V6G 3E2, Canada;32;active
+4;大连老虎滩极地馆 Dalian Laohutan Jidi Guan;121.627880;38.924780;Dalian, Liaoning Province, China;36;active
+5;大连圣亚海洋世界 Dalian Shengya Haiyang Shijie;121.627880;38.924780;Dalian, Liaoning Province, China;36;active
+6;辽宁省海洋水产科学研究院 Liaoning Sheng Haiyang Shuichan Kexue Yanjiuyuan;121.627880;38.924780;Dalian, Liaoning Province, China;36;active
+7;Seehundstation Friedrichskoog;8.875280;54.000860;An der Seeschleuse 4, 25718 Friedrichskoog, Germany;66;active
+8;Seehundstation Norddeich;7.1907;53.6080;Dörper Weg 24, 26506 Norden, Germany;66;active
+9;Seal Rescue Ireland;-6.2322;52.6438;Courtown Harbour, Courtown, Co. Wexford, Ireland;82;active
+10;Ocean Conservation Namibia (OCN);14.5081;-22.9576;PO Box 5304, Walvis Bay, Namibia;123;active
+11;Zeehondencrèche Pieterburen;6.5341;53.3910;Hoofdstraat 94a, 9968 AG Pieterburen, Netherlands;126;active
+12;АНО институт "Биосфера Балтики";20.4522;54.7104;Kaliningrad, Russia;145;limited
+13;Реабилитационный центр «Тюлень»;131.9126;43.3928;Приморский край, Надеждинский район п.Тавричанка, ул.Приморская, 2;145;active
+14;Фонд друзей балтийской нерпы;29.8122;60.1687;поселок Репино, Санкт-Петербург, Россия;145;active
+15;Cornish Seal Sanctuary;-5.1684;50.0890;Gweek, Cornwall, TR12 6UG, UK;186;active
+16;Mablethorpe Wildlife Rescue;0.2607;53.3416;North End, Mablethorpe LN12 1QG, UK;186;active
+17;Skegness Natureland;0.3406;53.1430;North Parade Skegness Lincolnshire PE25 1DB, UK;186;active
+18;SOS Rescate De Fauna Marina;-55.2458;-34.9238;Rambla Costanera, Punta Colorada, Maldonado, Uruguay;188;active
+19;The Marine Mammal Center;-122.5477;37.8325;2000 Bunker Road, Sausalito, CA 94965, USA;187;active
+20;Pacific Marine Mammal Center;-117.7590;33.5584;20612 Laguna Canyon Road, Laguna Beach, CA 92651, USA;187;active
+21;Alaska SeaLife Center;-149.4388;60.1253;301 Railway Avenue, Seward, AK 99664, USA;187;active
+22;Marine Mammal Care Center (MMCC);-118.2922;33.7160;3601 S. Gaffey, Suite #8, San Pedro, CA 90731, USA;187;active
+23;Marine Mammals of Maine (MMoME);-69.8134;43.9106;P.O. Box 751, Bath, Maine 04530, USA;187;active
+24;SeaWorld San Diego;-117.2273;32.7648;500 SeaWorld Drive, San Diego, CA 92109, USA;187;active
+25;Ke Kai Ola, The Marine Mammal Center;-155.6693;19.6012;Hawaii, USA;187;active
+26;Channel Islands Marine & Wildlife Institute (CIMWI);-119.6957;34.4208;PO Box 4250, Santa Barbara CA 93140, USA;187;active
