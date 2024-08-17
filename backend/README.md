@@ -1,4 +1,4 @@
-# Seal Rescue Project: Backend
+# Seal Rescue Project: Backend API & Database Service for communication with Angular
 
 ## Look into the PostgreSQL Container
 

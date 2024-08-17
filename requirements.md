@@ -67,6 +67,14 @@
 4. Update the ER diagram & check the scalability ✅
 5. Create a CSV file for the database from the Excel table ✅
 6. Create a seeding script in the backend project (from csv): seal, station, countries, roles etc tables (for all tables without users and subscriptions) using Flyway ✅
-7. Implement two controllers for the user registration and user login endpoints (in progress)
+7. Implement two controllers for the user registration and user login endpoints ✅
 8. Initialize a setup of Angular https://angular.dev/installation/ in the frontend directory ✅
-
+----------------------------------------------------------------
+9. Create models for users entities (fields in ER diagram), user services, and repositories for users https://medium.com/@mohammedharfan26/spring-boot-authentication-with-kotlin-a-comprehensive-guide-ad86315040dc
+10. Write tests for user, login, and registration services
+11. Add Utility class for connectivity
+12. Set up docker container for the application api (change the docker-compose.yml), see a link
+13. Healthcheck endpoint to make sure that API is running ✅
+14. Add healthcheck into docker-compose
+----------------------------------------------------------------
+15. Start integration of API into Angular

@@ -1,4 +1,5 @@
 services:
+  # add app set up and healthcheck
   postgres:
     image: 'postgres:latest'
     environment:
