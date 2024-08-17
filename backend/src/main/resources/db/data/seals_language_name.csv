@@ -35,3 +35,31 @@ id;name;fk_seal_id;fk_supported_language_id
 34;Ommatophoca rossii;17;2
 35;Hawaiian Monk Seal;18;1
 36;Monachus schauinslandi;18;2
+37;Steller Sea Lion;19;1
+38;Eumetopias jubatus;19;2
+39;Australian Sea Lion;20;1
+40;Neophoca cinerea;20;2
+41;South American Sea Lion;21;1
+42;Otaria flavescens;21;2
+43;New Zealand Sea Lion;22;1
+44;Phocarctos hookeri;22;2
+45;California, Galapagos and Japanese Sea Lions;23;1
+46;Zalophus californianus;23;2
+47;South American Fur Seal;24;1
+48;Arctocephalus australis;24;2
+49;New Zealand Fur Seal;25;1
+50;Arctocephalus forsteri;25;2
+51;Galapagos Fur Seal;26;1
+52;Arctocephalus galapagoensis;26;2
+53;Antarctic Fur Seal;27;1
+54;Arctocephalus gazella;27;2
+55;Juan Fernandez Fur Seal;28;1
+56;Arctocephalus philippii;28;2
+57;South African and Australian Fur Seals;29;1
+58;Arctocephalus pusillus;29;2
+59;Guadalupe Fur Seal;30;1
+60;Arctocephalus townsendi;30;2
+61;Subantarctic Fur Seal;31;1
+62;Arctocephalus tropicalis;31;2
+63;Northern Fur Seal;32;1
+64;Callorhinus ursinus;32;2
