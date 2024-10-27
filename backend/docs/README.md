@@ -1,1 +1,0 @@
-# Seal Rescue Backend Project
