@@ -3,7 +3,7 @@
     "target": "ES2022",
     "module": "ES2022", // Or "commonjs"
     "moduleResolution": "node", // Explicitly set module resolution
-    "rootDir": "src",
+    "rootDirs": ["src", "tests"],
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
