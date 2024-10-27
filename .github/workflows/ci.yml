@@ -35,3 +35,7 @@ jobs:
       run: |
         cd frontend
         ng build --prod
+
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  SECRET_KEY: ${{ secrets.SECRET_KEY }}
