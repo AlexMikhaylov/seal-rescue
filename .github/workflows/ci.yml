@@ -9,33 +9,36 @@ on:
 jobs:
   build:
 
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node-version: [20.x]
 
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install Dependencies
-      run: |
-        cd backend
-        npm install
-        cd ../frontend
-        npm install
-    - name: Build Backend
-      run: |
-        cd backend
-        npm run build
-    - name: Build Frontend
-      run: |
-        cd frontend
-        ng build --prod
+    env:
+      MONGODB_URI: ${{ secrets.MONGODB_URI }}
+      SECRET_KEY: ${{ secrets.SECRET_KEY }}
 
-env:
-  MONGODB_URI: ${{ secrets.MONGODB_URI }}
-  SECRET_KEY: ${{ secrets.SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Backend Dependencies
+        working-directory: ./backend
+        run: npm install
+
+      - name: Install Frontend Dependencies
+        working-directory: ./frontend
+        run: npm install
+
+      - name: Build Backend
+        working-directory: ./backend
+        run: npm run build
+
+      - name: Build Frontend
+        working-directory: ./frontend
+        run: ng build --configuration production
