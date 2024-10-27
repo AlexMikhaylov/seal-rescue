@@ -7,7 +7,7 @@
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts",
     "test": "jest",
-    "lint": "eslint src/**/*.{ts,js}"
+    "lint": "eslint src/**/*.{ts,js} tests/**/*.{ts,js}"
   },
   "keywords": [],
   "author": "",
